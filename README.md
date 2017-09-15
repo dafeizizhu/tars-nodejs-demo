@@ -18,6 +18,20 @@ npm install
 node main
 # see something in the console
 ```
+## Tars Deploy
+
+1. App: TRom
+2. Server: NodeJsTestServer
+3. Obj: NodeJsCommObj
+4. port: 14002
+
+```bash
+npm install -g tars-deploy
+cd ./server
+tars-deploy NodeJsTestServer # same as the server name in Tars Management Website
+```
+
+Then generate `NodeJsTestServer.tgz` file, use Tars Management Website to publish the package, [an example here](https://github.com/Tencent/Tars/blob/master/Install.md#442-tarsstat部署发布).
 
 ## Tree
 ```
